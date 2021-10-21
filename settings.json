@@ -1,0 +1,45 @@
+{
+  // Basics
+  "workbench.colorTheme": "One Dark Pro",
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.mouseWheelZoom": true,
+  "window.zoomLevel": 1,
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.settings.editor": "json",
+  "editor.suggestSelection": "first",
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+
+  // Formatter
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "emmet.includeLanguages": {
+    "javascript": "html"
+  },
+
+  // Prettier
+  "prettier.bracketSpacing": true,
+  "prettier.printWidth": 80,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "es5",
+  "prettier.semi": true,
+  "prettier.tabWidth": 2,
+  "prettier.endOfLine": "auto",
+
+  // Git
+  "gitlens.hovers.currentLine.over": "line",
+  "git.confirmSync": false,
+  "git.autofetch": true,
+  "gitlens.advanced.messages": {
+    "suppressGitMissingWarning": true
+  },
+
+  // Custom
+  "explorer.compactFolders": false,
+  "editor.guides.bracketPairs": true,
+  "javascript.inlayHints.parameterNames.enabled": "none",
+  "typescript.inlayHints.parameterNames.enabled": "none"
+}
