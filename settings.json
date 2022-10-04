@@ -1,89 +1,61 @@
 {
-  // Basics
   "workbench.colorTheme": "One Dark Pro",
   "workbench.iconTheme": "material-icon-theme",
   "editor.fontFamily": "Fira Code",
   "editor.fontLigatures": true,
-  "window.zoomLevel": 1,
-
-  // Editor
   "editor.mouseWheelZoom": true,
+
   "workbench.startupEditor": "newUntitledFile",
   "workbench.settings.editor": "json",
   "editor.suggestSelection": "first",
-  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "editor.inlineSuggest.enabled": true,
 
-  // Formatter
   "editor.codeActionsOnSave": {
     "source.fixAll": true,
-    "source.organizeImports": true
+    "source.organizeImports": false
   },
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "typescript.updateImportsOnFileMove.enabled": "always",
-  "emmet.includeLanguages": {
-    "javascript": "html"
-  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
 
-  // Prettier
-  // "prettier.bracketSpacing": true,
-  // "prettier.printWidth": 80,
-  // "prettier.singleQuote": true,
-  // "prettier.trailingComma": "none",
-  // "prettier.semi": true,
-  // "prettier.tabWidth": 2,
-  // "prettier.endOfLine": "auto",
-  // "prettier.proseWrap": "preserve",
-  // "prettier.arrowParens": "always",
-  // "prettier.quoteProps": "as-needed",
+  "prettier.bracketSpacing": true,
+  "prettier.printWidth": 80,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "es5",
+  "prettier.semi": true,
+  "prettier.tabWidth": 2,
+  "prettier.endOfLine": "auto",
+  "prettier.arrowParens": "always",
 
-  // Git
-  "gitlens.hovers.currentLine.over": "line",
-  "git.confirmSync": false,
-  "git.autofetch": true,
-  "gitlens.advanced.messages": {
-    "suppressGitMissingWarning": true
-  },
-
-  // Custom
   "explorer.compactFolders": false,
   "javascript.inlayHints.parameterNames.enabled": "all",
   "typescript.inlayHints.parameterNames.enabled": "all",
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": "active",
+  "editor.minimap.enabled": false,
+  "workbench.editor.enablePreview": true,
+  "breadcrumbs.enabled": false,
+  "typescript.preferences.importModuleSpecifier": "relative",
+  "javascript.preferences.importModuleSpecifier": "relative",
 
-  // Random
-  "sqltools.connections": [
-    {
-      "previewLimit": 50,
-      "server": "localhost",
-      "port": 5666,
-      "askForPassword": true,
-      "driver": "PostgreSQL",
-      "name": "Test",
-      "database": "postgres",
-      "username": "postgres"
-    }
-  ],
-  "cSpell.userWords": [
-    "autofetch",
-    "browserslist",
-    "camelcase",
-    "Chakra",
-    "COINMARKET",
-    "esbenp",
-    "Fira",
-    "Hagelstam",
-    "Parens",
-    "postbuild",
-    "resave",
-    "sqltools",
-    "tasklist",
-    "tasklists",
-    "todocli",
-    "unstyled"
-  ],
-  "redhat.telemetry.enabled": false,
-  "security.workspace.trust.untrustedFiles": "open"
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/node_modules": true
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/*.code-search": true,
+    "**/package-lock.json": true,
+    "**/yarn.lock": true
+  },
+
+  "security.workspace.trust.untrustedFiles": "open",
+  "git.confirmSync": false
 }

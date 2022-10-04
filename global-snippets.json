@@ -8,8 +8,8 @@
     "body": "${1:cond} ? ${2:true} : ${3: false}"
   },
   "console.log": {
-    "prefix": "cln",
-    "body": "console.log('$1')$0"
+    "prefix": "clg",
+    "body": "console.log($1);"
   },
   "console.log('var', var)": {
     "prefix": "cl",
@@ -121,6 +121,16 @@
       "console.log('**************************************************************************\\\\n\\\\n\\\\n')",
       "console.log($0)",
       "console.log('\\\\n\\\\n\\\\n**************************************************************************')"
+    ]
+  },
+  "reactArrowFunctionExportComponent": {
+    "prefix": "rafce",
+    "body": [
+      "const James$0 = () => {",
+      "  return <div>Hello team!</div>;",
+      "};",
+      "",
+      "export default James$0;"
     ]
   }
 }
