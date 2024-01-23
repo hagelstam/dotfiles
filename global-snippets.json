@@ -126,11 +126,9 @@
   "reactArrowFunctionExportComponent": {
     "prefix": "rafce",
     "body": [
-      "const James$0 = () => {",
+      "export const James$0 = () => {",
       "  return <div>Hello team!</div>;",
-      "};",
-      "",
-      "export default James$0;"
+      "};"
     ]
   }
 }
