@@ -27,5 +27,5 @@ Settings for a minimal VSCode setup.
 - Prettier
 - Tailwind CSS IntelliSense
 - Template String Converter
-- Thunder Clint
+- Thunder Client
 - YAML
