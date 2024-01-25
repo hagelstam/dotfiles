@@ -1,5 +1,5 @@
 {
-  "workbench.colorTheme": "Hyper Term Black",
+  "workbench.colorTheme": "Night Owl (No Italics)",
   "workbench.iconTheme": "material-icon-theme",
   "editor.fontFamily": "Jetbrains Mono",
   "editor.mouseWheelZoom": true,
@@ -24,7 +24,6 @@
   "workbench.sideBar.location": "right",
 
   "explorer.autoReveal": false,
-  "workbench.editor.enablePreview": false,
   "editor.hideCursorInOverviewRuler": true,
   "editor.scrollbar.horizontal": "hidden",
   "editor.scrollbar.vertical": "hidden",
@@ -39,7 +38,6 @@
 
   "typescript.updateImportsOnFileMove.enabled": "always",
   "typescript.suggest.autoImports": true,
-  "typescript.inlayHints.parameterNames.enabled": "all",
   "typescript.preferences.importModuleSpecifier": "shortest",
   "typescript.autoClosingTags": true,
 
@@ -60,7 +58,7 @@
     "**/pnpm-lock.yaml": true
   },
 
-  "cSpell.userWords": ["esbenp", "Jetbrains"],
+  "cSpell.userWords": ["esbenp"],
   "security.workspace.trust.untrustedFiles": "open",
   "git.confirmSync": false
 }

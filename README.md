@@ -2,6 +2,8 @@
 
 Settings for a minimal VSCode setup.
 
+<img src="screenshot.png" width="600"/>
+
 ## Font
 
 [JetBrains Mono](https://www.jetbrains.com/lp/mono/)
@@ -17,14 +19,15 @@ Settings for a minimal VSCode setup.
 ## Extensions
 
 - Error Lens
-- Hyper Term Theme
 - Material Icon Theme
+- Night Owl
 - Code Spell Checker
 - Docker
 - ESLint
 - Go
 - IntelliCode
 - Prettier
+- Pretty TypeScript Errors
 - Tailwind CSS IntelliSense
 - Template String Converter
 - Thunder Client
