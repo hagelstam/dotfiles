@@ -2,8 +2,6 @@
 
 Settings for a minimal VSCode setup.
 
-<img src="screenshot.png" width="600"/>
-
 ## Font
 
 [JetBrains Mono](https://www.jetbrains.com/lp/mono/)
@@ -16,11 +14,15 @@ Settings for a minimal VSCode setup.
 
 [global-snippets.json](https://github.com/MaximilianHagelstam/vscode-settings/blob/main/global-snippets.json)
 
+## Windows terminal theme
+
+[windows-terminal-theme.json](https://github.com/MaximilianHagelstam/vscode-settings/blob/main/windows-terminal-theme.json)
+
 ## Extensions
 
 - Error Lens
 - Material Icon Theme
-- Night Owl
+- Palenight Theme
 - Code Spell Checker
 - Docker
 - ESLint

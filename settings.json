@@ -1,5 +1,5 @@
 {
-  "workbench.colorTheme": "Night Owl (No Italics)",
+  "workbench.colorTheme": "Palenight Theme",
   "workbench.iconTheme": "material-icon-theme",
   "editor.fontFamily": "Jetbrains Mono",
   "editor.mouseWheelZoom": true,
@@ -23,7 +23,6 @@
   "editor.bracketPairColorization.enabled": true,
   "workbench.sideBar.location": "right",
 
-  "explorer.autoReveal": false,
   "editor.hideCursorInOverviewRuler": true,
   "editor.scrollbar.horizontal": "hidden",
   "editor.scrollbar.vertical": "hidden",
@@ -40,6 +39,7 @@
   "typescript.suggest.autoImports": true,
   "typescript.preferences.importModuleSpecifier": "shortest",
   "typescript.autoClosingTags": true,
+  "typescript.inlayHints.parameterNames.enabled": "all",
 
   "[go]": {
     "editor.defaultFormatter": "golang.go",
@@ -48,6 +48,7 @@
       "source.organizeImports": "explicit"
     }
   },
+  "go.inlayHints.parameterNames": true,
 
   "search.exclude": {
     "**/node_modules": true,
@@ -58,7 +59,7 @@
     "**/pnpm-lock.yaml": true
   },
 
-  "cSpell.userWords": ["esbenp"],
+  "cSpell.userWords": ["Jetbrains", "Palenight"],
   "security.workspace.trust.untrustedFiles": "open",
   "git.confirmSync": false
 }
