@@ -1,5 +1,5 @@
 {
-  "workbench.colorTheme": "Palenight Theme",
+  "workbench.colorTheme": "GitHub Dark Default",
   "workbench.iconTheme": "material-icon-theme",
   "editor.fontFamily": "Jetbrains Mono",
   "editor.mouseWheelZoom": true,
@@ -59,7 +59,7 @@
     "**/pnpm-lock.yaml": true
   },
 
-  "cSpell.userWords": ["Jetbrains", "Palenight"],
+  "cSpell.userWords": ["Jetbrains"],
   "security.workspace.trust.untrustedFiles": "open",
   "git.confirmSync": false
 }

@@ -21,16 +21,16 @@ Settings for a minimal VSCode setup.
 ## Extensions
 
 - Error Lens
+- GitHub Theme
 - Material Icon Theme
-- Palenight Theme
+- Astro
 - Code Spell Checker
 - Docker
 - ESLint
 - Go
 - IntelliCode
 - Prettier
-- Pretty TypeScript Errors
+- Prisma
 - Tailwind CSS IntelliSense
 - Template String Converter
-- Thunder Client
 - YAML
