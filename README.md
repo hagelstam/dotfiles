@@ -21,8 +21,8 @@ Settings for a minimal VSCode setup.
 ## Extensions
 
 - Error Lens
-- GitHub Theme
 - Material Icon Theme
+- Material Theme
 - Astro
 - Code Spell Checker
 - Docker
