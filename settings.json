@@ -1,15 +1,41 @@
 {
-  "workbench.colorTheme": "Material Theme Ocean High Contrast",
+  // Theme
+  "workbench.colorTheme": "Material Theme Ocean",
   "workbench.iconTheme": "material-icon-theme",
-  "editor.fontFamily": "Jetbrains Mono",
+
+  // Zoom
   "editor.mouseWheelZoom": true,
   "window.zoomLevel": 1,
 
-  "workbench.startupEditor": "newUntitledFile",
-  "workbench.settings.editor": "json",
-  "editor.suggestSelection": "first",
-  "editor.inlineSuggest.enabled": true,
+  // Font
+  "editor.fontFamily": "Jetbrains Mono",
+  "terminal.integrated.fontFamily": "Jetbrains Mono",
+  "debug.console.fontFamily": "Jetbrains Mono",
+  "editor.codeLensFontFamily": "Jetbrains Mono",
+  "editor.inlayHints.fontFamily": "Jetbrains Mono",
 
+  // UI
+  "workbench.sideBar.location": "right",
+  "editor.minimap.enabled": false,
+  "breadcrumbs.enabled": false,
+  "workbench.editor.showTabs": "none",
+  "explorer.compactFolders": false,
+  "workbench.statusBar.visible": false,
+  "window.menuBarVisibility": "hidden",
+  "window.commandCenter": false,
+  "workbench.layoutControl.enabled": false,
+  "workbench.editor.editorActionsLocation": "hidden",
+
+  // Hide scrollbar
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.vertical": "hidden",
+  "editor.hideCursorInOverviewRuler": true,
+
+  // Editing
+  "editor.linkedEditing": true,
+  "editor.bracketPairColorization.enabled": true,
+
+  // Formatting
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
@@ -18,29 +44,15 @@
     "source.organizeImports": "explicit"
   },
 
-  "editor.linkedEditing": true,
-  "explorer.compactFolders": false,
-  "editor.bracketPairColorization.enabled": true,
-  "workbench.sideBar.location": "right",
-
-  "editor.hideCursorInOverviewRuler": true,
-  "editor.scrollbar.horizontal": "hidden",
-  "editor.scrollbar.vertical": "hidden",
-  "workbench.statusBar.visible": false,
-  "breadcrumbs.enabled": false,
-  "window.menuBarVisibility": "hidden",
-  "workbench.layoutControl.enabled": false,
-  "window.commandCenter": false,
-  "workbench.editor.editorActionsLocation": "hidden",
-  "editor.minimap.enabled": false,
-  "workbench.editor.showTabs": "none",
-
+  // TypeScript
   "typescript.updateImportsOnFileMove.enabled": "always",
   "typescript.suggest.autoImports": true,
-  "typescript.preferences.importModuleSpecifier": "shortest",
   "typescript.autoClosingTags": true,
+  "typescript.preferences.importModuleSpecifier": "shortest",
   "typescript.inlayHints.parameterNames.enabled": "all",
 
+  // Go
+  "go.inlayHints.parameterNames": true,
   "[go]": {
     "editor.defaultFormatter": "golang.go",
     "editor.formatOnSave": true,
@@ -48,8 +60,8 @@
       "source.organizeImports": "explicit"
     }
   },
-  "go.inlayHints.parameterNames": true,
 
+  // Search exclude
   "search.exclude": {
     "**/node_modules": true,
     "**/bower_components": true,
@@ -59,7 +71,12 @@
     "**/pnpm-lock.yaml": true
   },
 
+  // Spell check
   "cSpell.userWords": ["Jetbrains"],
+
+  // Misc
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.settings.editor": "json",
   "security.workspace.trust.untrustedFiles": "open",
   "git.confirmSync": false
 }
