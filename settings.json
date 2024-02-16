@@ -1,7 +1,7 @@
 {
   // Theme
-  "workbench.colorTheme": "Material Theme Ocean",
-  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Catppuccin Mocha",
+  "workbench.iconTheme": "catppuccin-mocha",
 
   // Zoom
   "editor.mouseWheelZoom": true,
@@ -13,6 +13,9 @@
   "debug.console.fontFamily": "Jetbrains Mono",
   "editor.codeLensFontFamily": "Jetbrains Mono",
   "editor.inlayHints.fontFamily": "Jetbrains Mono",
+  "errorLens.fontFamily": "Jetbrains Mono",
+  "editor.inlineSuggest.fontFamily": "Jetbrains Mono",
+  "scm.inputFontFamily": "Jetbrains Mono",
 
   // UI
   "workbench.sideBar.location": "right",
@@ -49,10 +52,8 @@
   "typescript.suggest.autoImports": true,
   "typescript.autoClosingTags": true,
   "typescript.preferences.importModuleSpecifier": "shortest",
-  "typescript.inlayHints.parameterNames.enabled": "all",
 
   // Go
-  "go.inlayHints.parameterNames": true,
   "[go]": {
     "editor.defaultFormatter": "golang.go",
     "editor.formatOnSave": true,
@@ -72,7 +73,14 @@
   },
 
   // Spell check
-  "cSpell.userWords": ["Jetbrains"],
+  "cSpell.userWords": [
+    "astro",
+    "Catppuccin",
+    "esbenp",
+    "Intelli",
+    "Jetbrains",
+    "tailwindcss"
+  ],
 
   // Misc
   "workbench.startupEditor": "newUntitledFile",
