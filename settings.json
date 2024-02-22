@@ -1,7 +1,7 @@
 {
   // Theme
-  "workbench.colorTheme": "Catppuccin Mocha",
-  "workbench.iconTheme": "catppuccin-mocha",
+  "workbench.colorTheme": "Material Theme Ocean",
+  "workbench.iconTheme": "material-icon-theme",
 
   // Zoom
   "editor.mouseWheelZoom": true,

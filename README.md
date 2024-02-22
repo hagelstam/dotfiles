@@ -14,15 +14,11 @@ Settings for a minimal VSCode setup.
 
 [global-snippets.json](https://github.com/MaximilianHagelstam/vscode-settings/blob/main/global-snippets.json)
 
-## Windows terminal theme
-
-[windows-terminal-theme.json](https://github.com/catppuccin/windows-terminal)
-
 ## Extensions
 
-- Catppuccin for VSCode
-- Catppuccin Icons for VSCode
 - Error Lens
+- Material Icon Theme
+- Material Theme
 - Astro
 - Code Spell Checker
 - Docker
