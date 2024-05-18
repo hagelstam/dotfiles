@@ -54,6 +54,7 @@
   "typescript.preferences.importModuleSpecifier": "shortest",
 
   // Go
+  "go.lintTool": "golangci-lint",
   "[go]": {
     "editor.defaultFormatter": "golang.go",
     "editor.formatOnSave": true,
@@ -86,5 +87,6 @@
   "workbench.startupEditor": "newUntitledFile",
   "workbench.settings.editor": "json",
   "security.workspace.trust.untrustedFiles": "open",
-  "git.confirmSync": false
+  "git.confirmSync": false,
+  "git.openRepositoryInParentFolders": "always"
 }

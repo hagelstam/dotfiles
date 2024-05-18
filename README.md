@@ -14,6 +14,10 @@ Settings for a minimal VSCode setup.
 
 [global-snippets.json](https://github.com/MaximilianHagelstam/vscode-settings/blob/main/global-snippets.json)
 
+## Windows Terminal
+
+[windows-terminal.json](https://github.com/MaximilianHagelstam/vscode-settings/blob/main/windows-terminal.json)
+
 ## Extensions
 
 - Error Lens
@@ -26,7 +30,6 @@ Settings for a minimal VSCode setup.
 - Go
 - IntelliCode
 - Prettier
-- Prisma
 - Tailwind CSS IntelliSense
 - Template String Converter
 - YAML
