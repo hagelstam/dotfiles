@@ -8,14 +8,14 @@
   "window.zoomLevel": 1,
 
   // Font
-  "editor.fontFamily": "Jetbrains Mono",
-  "terminal.integrated.fontFamily": "Jetbrains Mono",
-  "debug.console.fontFamily": "Jetbrains Mono",
-  "editor.codeLensFontFamily": "Jetbrains Mono",
-  "editor.inlayHints.fontFamily": "Jetbrains Mono",
-  "errorLens.fontFamily": "Jetbrains Mono",
-  "editor.inlineSuggest.fontFamily": "Jetbrains Mono",
-  "scm.inputFontFamily": "Jetbrains Mono",
+  "editor.fontFamily": "JetbrainsMono NF",
+  "terminal.integrated.fontFamily": "JetbrainsMono NF",
+  "debug.console.fontFamily": "JetbrainsMono NF",
+  "editor.codeLensFontFamily": "JetbrainsMono NF",
+  "editor.inlayHints.fontFamily": "JetbrainsMono NF",
+  "errorLens.fontFamily": "JetbrainsMono NF",
+  "editor.inlineSuggest.fontFamily": "JetbrainsMono NF",
+  "scm.inputFontFamily": "JetbrainsMono NF",
 
   // UI
   "workbench.sideBar.location": "right",
