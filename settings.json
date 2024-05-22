@@ -4,7 +4,7 @@
   "workbench.iconTheme": "material-icon-theme",
 
   // Zoom
-  "editor.mouseWheelZoom": true,
+  "editor.fontSize": 14,
   "window.zoomLevel": 1,
 
   // Font

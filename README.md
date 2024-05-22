@@ -1,28 +1,18 @@
 # Editor and terminal setup
 
-Config for VSCode and zsh.
+My zsh and vscode config
 
 ## Font
 
-[JetBrains Mono Nerdfont](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/JetBrainsMono)
+[JetBrains Mono Nerd Font](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/JetBrainsMono)
 
-## Settings
+## VSCode
 
-[settings.json](https://github.com/MaximilianHagelstam/vscode-settings/blob/main/settings.json)
+Settings: [settings.json](https://github.com/MaximilianHagelstam/vscode-settings/blob/main/settings.json)
 
-## Snippets
+Snippets: [global-snippets.json](https://github.com/MaximilianHagelstam/vscode-settings/blob/main/global-snippets.json)
 
-[global-snippets.json](https://github.com/MaximilianHagelstam/vscode-settings/blob/main/global-snippets.json)
-
-## Windows Terminal
-
-[windows-terminal.json](https://github.com/MaximilianHagelstam/vscode-settings/blob/main/windows-terminal.json)
-
-## Zsh
-
-[.zshrc](https://github.com/MaximilianHagelstam/vscode-settings/blob/main/.zshrc)
-
-## Extensions
+### Extensions
 
 - Error Lens
 - Material Icon Theme
@@ -37,3 +27,13 @@ Config for VSCode and zsh.
 - Tailwind CSS IntelliSense
 - Template String Converter
 - YAML
+
+## Terminal
+
+Install fzf: `sudo apt install fzf`
+
+Windows terminal settings: [windows-terminal.json](https://github.com/MaximilianHagelstam/vscode-settings/blob/main/windows-terminal.json)
+
+Zsh config: [.zshrc](https://github.com/MaximilianHagelstam/vscode-settings/blob/main/.zshrc)
+
+Powerlevel10k config: [.p10k.zsh](https://github.com/MaximilianHagelstam/vscode-settings/blob/main/.p10k.zsh)
