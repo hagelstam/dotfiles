@@ -1,10 +1,10 @@
-# VSCode settings
+# Editor and terminal setup
 
-Settings for a minimal VSCode setup.
+Config for VSCode and zsh.
 
 ## Font
 
-[JetBrains Mono](https://www.jetbrains.com/lp/mono/)
+[JetBrains Mono Nerdfont](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/JetBrainsMono)
 
 ## Settings
 
@@ -17,6 +17,10 @@ Settings for a minimal VSCode setup.
 ## Windows Terminal
 
 [windows-terminal.json](https://github.com/MaximilianHagelstam/vscode-settings/blob/main/windows-terminal.json)
+
+## Zsh
+
+[.zshrc](https://github.com/MaximilianHagelstam/vscode-settings/blob/main/.zshrc)
 
 ## Extensions
 
