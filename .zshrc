@@ -53,6 +53,13 @@ zinit cdreplay -q
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
+# Fzf fuzzy search
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+# Nvm
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+
 # Keybindings
 bindkey -e
 bindkey '^p' history-search-backward
@@ -82,11 +89,3 @@ zstyle ':fzf-tab:complete:cd:*' fzf-preview 'ls --color $realpath'
 alias ls='ls --color'
 alias la='ls -a'
 alias c='clear'
-
-# Fzf fuzzy search
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-
-# Nvm
-NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

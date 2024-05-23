@@ -1,6 +1,4 @@
-# Editor and terminal setup
-
-My zsh and vscode config
+# Dotfiles
 
 ## Font
 
@@ -30,10 +28,12 @@ Snippets: [global-snippets.json](https://github.com/MaximilianHagelstam/vscode-s
 
 ## Terminal
 
-Install fzf: `sudo apt install fzf`
+Install zsh: `sudo apt install zsh`
 
-Windows terminal settings: [windows-terminal.json](https://github.com/MaximilianHagelstam/vscode-settings/blob/main/windows-terminal.json)
+Install fzf: `sudo apt install fzf`
 
 Zsh config: [.zshrc](https://github.com/MaximilianHagelstam/vscode-settings/blob/main/.zshrc)
 
 Powerlevel10k config: [.p10k.zsh](https://github.com/MaximilianHagelstam/vscode-settings/blob/main/.p10k.zsh)
+
+Windows Terminal config: [windows-terminal.json](https://github.com/MaximilianHagelstam/vscode-settings/blob/main/windows-terminal.json)

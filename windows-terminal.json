@@ -1,4 +1,24 @@
 {
+  "alwaysShowTabs": true,
+  "confirmCloseAllTabs": false,
+  "copyFormatting": "none",
+  "copyOnSelect": false,
+  "disableAnimations": true,
+  "initialRows": 30,
+  "initialCols": 80,
+  "centerOnLaunch": true,
+  "showTabsInTitlebar": true,
+  "startOnUserLogin": true,
+  "profiles": {
+    "defaults": {
+      "colorScheme": "Material Ocean",
+      "cursorShape": "underscore",
+      "font": {
+        "face": "JetbrainsMono NF",
+        "size": 12.0
+      }
+    }
+  },
   "schemes": [
     {
       "name": "Material Ocean",
@@ -22,6 +42,7 @@
       "yellow": "#ffcb6b"
     }
   ],
+  "theme": "Material Ocean",
   "themes": [
     {
       "name": "Material Ocean",
