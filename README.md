@@ -20,6 +20,8 @@ Install zsh: `sudo apt install zsh`
 
 Install fzf: `sudo apt install fzf`
 
+Install exa: `sudo apt install exa`
+
 Zsh config: [.zshrc](https://github.com/MaximilianHagelstam/vscode-settings/blob/main/.zshrc)
 
 Powerlevel10k config: [.p10k.zsh](https://github.com/MaximilianHagelstam/vscode-settings/blob/main/.p10k.zsh)
