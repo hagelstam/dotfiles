@@ -2,9 +2,11 @@
 
 ## What I use
 
+Platform: Ubuntu 24.04 on WSL2
+
 Terminal: Windows Terminal
 
-Shell: Zsh and Powerlevel10k
+Shell: Zsh with Powerlevel10k
 
 Editor: VSCode
 
@@ -20,11 +22,9 @@ Install zsh: `sudo apt install zsh`
 
 Install fzf: `sudo apt install fzf`
 
-Install exa: `sudo apt install exa`
+Install lsd: `sudo apt install lsd`
 
 Zsh config: [.zshrc](https://github.com/MaximilianHagelstam/vscode-settings/blob/main/.zshrc)
-
-Powerlevel10k config: [.p10k.zsh](https://github.com/MaximilianHagelstam/vscode-settings/blob/main/.p10k.zsh)
 
 Windows Terminal config: [windows-terminal.json](https://github.com/MaximilianHagelstam/vscode-settings/blob/main/windows-terminal.json)
 
