@@ -1,0 +1,13 @@
+Error Lens
+Material Icon Theme
+Material Theme
+Astro
+Code Spell Checker
+Docker
+ESLint
+Go
+IntelliCode
+Prettier
+Tailwind CSS IntelliSense
+Template String Converter
+YAML
