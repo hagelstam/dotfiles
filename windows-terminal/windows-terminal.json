@@ -14,7 +14,7 @@
       "colorScheme": "Material Ocean",
       "cursorShape": "underscore",
       "font": {
-        "face": "JetbrainsMono NF",
+        "face": "Geist Mono",
         "size": 12.0
       }
     }
@@ -52,8 +52,8 @@
         "showCloseButton": "never"
       },
       "tabRow": {
-        "background": "#0f111a",
-        "unfocusedBackground": "#0f111a"
+        "background": "terminalBackground",
+        "unfocusedBackground": "terminalBackground"
       },
       "window": {
         "applicationTheme": "dark"

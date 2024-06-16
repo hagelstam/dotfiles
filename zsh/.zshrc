@@ -5,6 +5,11 @@ ZSH_THEME="robbyrussell"
 
 plugins=(git nvm sudo kubectl fzf zsh-syntax-highlighting zsh-autosuggestions zsh-completions)
 
+# Go path
+export GOROOT=/usr/local/go
+export GOPATH=$HOME/go
+export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
+
 # History
 HISTSIZE=5000
 HISTFILE=~/.zsh_history
@@ -22,11 +27,6 @@ setopt hist_find_no_dups
 bindkey -e
 bindkey '^p' history-search-backward
 bindkey '^n' history-search-forward
-
-# Go path
-export GOROOT=/usr/local/go
-export GOPATH=$HOME/go
-export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
 
 # Aliases
 alias c='clear'

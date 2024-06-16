@@ -8,14 +8,14 @@
   "window.zoomLevel": 1,
 
   // Font
-  "editor.fontFamily": "JetbrainsMono NF",
-  "terminal.integrated.fontFamily": "JetbrainsMono NF",
-  "debug.console.fontFamily": "JetbrainsMono NF",
-  "editor.codeLensFontFamily": "JetbrainsMono NF",
-  "editor.inlayHints.fontFamily": "JetbrainsMono NF",
-  "errorLens.fontFamily": "JetbrainsMono NF",
-  "editor.inlineSuggest.fontFamily": "JetbrainsMono NF",
-  "scm.inputFontFamily": "JetbrainsMono NF",
+  "editor.fontFamily": "Geist Mono",
+  "terminal.integrated.fontFamily": "Geist Mono",
+  "debug.console.fontFamily": "Geist Mono",
+  "editor.codeLensFontFamily": "Geist Mono",
+  "editor.inlayHints.fontFamily": "Geist Mono",
+  "errorLens.fontFamily": "Geist Mono",
+  "editor.inlineSuggest.fontFamily": "Geist Mono",
+  "scm.inputFontFamily": "Geist Mono",
 
   // UI
   "workbench.sideBar.location": "right",
@@ -74,13 +74,7 @@
   },
 
   // Spell check
-  "cSpell.userWords": [
-    "astro",
-    "esbenp",
-    "Intelli",
-    "Jetbrains",
-    "tailwindcss"
-  ],
+  "cSpell.userWords": ["astro", "esbenp", "tailwindcss"],
 
   // Misc
   "workbench.startupEditor": "newUntitledFile",
