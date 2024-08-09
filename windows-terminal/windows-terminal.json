@@ -11,7 +11,7 @@
   "startOnUserLogin": true,
   "profiles": {
     "defaults": {
-      "colorScheme": "Material Ocean",
+      "colorScheme": "JetbrainsMono NF",
       "cursorShape": "underscore",
       "font": {
         "face": "Geist Mono",
