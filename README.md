@@ -15,11 +15,13 @@ fzf: `sudo apt install fzf`
 [nvm](https://github.com/nvm-sh/nvm?tab=readme-ov-file#install--update-script)
 
 zsh-autocomplete:
+
 ```bash
 sudo git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 ```
 
 zsh-syntax-highlighting:
+
 ```bash
 sudo git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 ```

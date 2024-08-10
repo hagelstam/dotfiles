@@ -1,6 +1,6 @@
 Error Lens
-Material Icon Theme
-Material Theme
+Glyph for vscode
+Night Wolf
 Astro
 Code Spell Checker
 Docker

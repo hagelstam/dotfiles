@@ -11,41 +11,45 @@
   "startOnUserLogin": true,
   "profiles": {
     "defaults": {
-      "colorScheme": "JetbrainsMono NF",
+      "colorScheme": "iTerm2 Default",
       "cursorShape": "underscore",
+      "useAcrylic": true,
+      "opacity": 60,
       "font": {
-        "face": "Geist Mono",
+        "face": "JetbrainsMono NF",
         "size": 12.0
       }
     }
   },
   "schemes": [
     {
-      "name": "Material Ocean",
-      "background": "#0f111a",
-      "foreground": "#a6accd",
+      "name": "iTerm2 Default",
       "black": "#000000",
-      "blue": "#82aaff",
-      "brightBlack": "#464b5d",
-      "brightBlue": "#82aaff",
-      "brightCyan": "#89ddff",
-      "brightGreen": "#c3e88d",
-      "brightPurple": "#c792ea",
-      "brightRed": "#f07178",
-      "brightWhite": "#ffffff",
-      "brightYellow": "#ffcb6b",
-      "cyan": "#89ddff",
-      "green": "#c3e88d",
-      "purple": "#c792ea",
-      "red": "#f07178",
+      "red": "#c91b00",
+      "green": "#00c200",
+      "yellow": "#c7c400",
+      "blue": "#2225c4",
+      "purple": "#ca30c7",
+      "cyan": "#00c5c7",
       "white": "#ffffff",
-      "yellow": "#ffcb6b"
+      "brightBlack": "#686868",
+      "brightRed": "#ff6e67",
+      "brightGreen": "#5ffa68",
+      "brightYellow": "#fffc67",
+      "brightBlue": "#6871ff",
+      "brightPurple": "#ff77ff",
+      "brightCyan": "#60fdff",
+      "brightWhite": "#ffffff",
+      "background": "#000000",
+      "foreground": "#ffffff",
+      "cursorColor": "#e5e5e5",
+      "selectionBackground": "#c1deff"
     }
   ],
-  "theme": "Material Ocean",
+  "theme": "iTerm2",
   "themes": [
     {
-      "name": "Material Ocean",
+      "name": "iTerm2",
       "tab": {
         "background": "terminalBackground",
         "unfocusedBackground": "terminalBackground",

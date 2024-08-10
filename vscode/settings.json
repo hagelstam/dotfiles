@@ -1,10 +1,10 @@
 {
   // Theme
-  "workbench.colorTheme": "Material Theme Ocean",
-  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Night Wolf (black) (No Italics)",
+  "workbench.iconTheme": "glyph.legacy",
 
   // Zoom
-  "editor.fontSize": 14,
+  "editor.fontSize": 13,
   "window.zoomLevel": 1,
 
   // Font
