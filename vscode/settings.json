@@ -55,6 +55,8 @@
 
   // Go
   "go.lintTool": "golangci-lint",
+  "go.inlayHints.functionTypeParameters": true,
+  "go.inlayHints.parameterNames": true,
   "[go]": {
     "editor.defaultFormatter": "golang.go",
     "editor.formatOnSave": true,
@@ -74,12 +76,9 @@
   },
 
   // Spell check
-  "cSpell.userWords": ["astro", "esbenp", "tailwindcss"],
+  "cSpell.userWords": ["esbenp"],
 
   // Misc
   "workbench.startupEditor": "newUntitledFile",
-  "workbench.settings.editor": "json",
-  "security.workspace.trust.untrustedFiles": "open",
-  "git.confirmSync": false,
-  "git.openRepositoryInParentFolders": "always"
+  "workbench.settings.editor": "json"
 }
