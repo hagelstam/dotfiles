@@ -1,10 +1,14 @@
 {
+  // Misc
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.settings.editor": "json",
+
   // Theme
   "workbench.colorTheme": "Night Wolf (black) (No Italics)",
   "workbench.iconTheme": "glyph.legacy",
 
   // Zoom
-  "editor.fontSize": 13,
+  "editor.fontSize": 12,
   "window.zoomLevel": 1,
 
   // Font
@@ -24,7 +28,6 @@
   "workbench.editor.showTabs": "none",
   "explorer.compactFolders": false,
   "workbench.statusBar.visible": false,
-  "window.menuBarVisibility": "hidden",
   "window.commandCenter": false,
   "workbench.layoutControl.enabled": false,
   "workbench.editor.editorActionsLocation": "hidden",
@@ -76,9 +79,5 @@
   },
 
   // Spell check
-  "cSpell.userWords": ["esbenp"],
-
-  // Misc
-  "workbench.startupEditor": "newUntitledFile",
-  "workbench.settings.editor": "json"
+  "cSpell.userWords": ["esbenp"]
 }
