@@ -4,8 +4,8 @@
   "workbench.settings.editor": "json",
 
   // Theme
-  "workbench.colorTheme": "Night Wolf (black) (No Italics)",
-  "workbench.iconTheme": "glyph.legacy",
+  "workbench.colorTheme": "Aura Dark",
+  "workbench.iconTheme": "moxer-icons",
 
   // Zoom
   "editor.fontSize": 12,
@@ -31,6 +31,7 @@
   "window.commandCenter": false,
   "workbench.layoutControl.enabled": false,
   "workbench.editor.editorActionsLocation": "hidden",
+  "editor.cursorSmoothCaretAnimation": "on",
 
   // Hide scrollbar
   "editor.scrollbar.horizontal": "hidden",

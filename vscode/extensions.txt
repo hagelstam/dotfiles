@@ -1,7 +1,6 @@
 Error Lens
-Glyph for vscode
-Night Wolf
-Astro
+Aura Theme
+Moxer Icons
 Code Spell Checker
 Docker
 ESLint
