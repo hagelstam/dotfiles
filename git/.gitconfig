@@ -1,0 +1,10 @@
+[core]
+	pager = delta
+[delta]
+	line-numbers = true
+
+[push]
+	autoSetupRemove = true
+	default = current
+[alias]
+	undo = reset --soft HEAD^

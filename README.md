@@ -8,6 +8,8 @@ zsh: `sudo apt install zsh`
 
 fzf: `sudo apt install fzf`
 
+delta: `sudo apt install git-delta`
+
 [oh-my-zsh](https://ohmyz.sh/#install)
 
 [Go](https://dev.to/deadwin19/how-to-install-golang-on-wslwsl2-2880)
