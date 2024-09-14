@@ -1,9 +1,10 @@
-Error Lens
 Aura Theme
+Error Lens
 Moxer Icons
 Code Spell Checker
 Docker
 ESLint
+GitLens
 Go
 IntelliCode
 Prettier

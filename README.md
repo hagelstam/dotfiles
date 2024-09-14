@@ -2,19 +2,21 @@
 
 Configurations for the tools I use.
 
-## Dependencies
+## Tools
 
 [Homebrew](https://docs.brew.sh/Homebrew-on-Linux#install)
-
-delta: `sudo apt install git-delta`
-
-[oh-my-zsh](https://ohmyz.sh/#install)
 
 [Go](https://dev.to/deadwin19/how-to-install-golang-on-wslwsl2-2880)
 
 [nvm](https://github.com/nvm-sh/nvm?tab=readme-ov-file#install--update-script)
 
 zsh: `brew install zsh`
+
+[oh-my-zsh](https://ohmyz.sh/#install)
+
+tmux: `brew install tmux`
+
+[tpm](https://github.com/tmux-plugins/tpm)
 
 fzf: `brew install fzf`
 

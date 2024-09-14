@@ -32,3 +32,5 @@ bindkey '^n' history-search-forward
 alias c='clear'
 
 source $ZSH/oh-my-zsh.sh
+
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
