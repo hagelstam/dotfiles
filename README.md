@@ -4,9 +4,7 @@ Configurations for the tools I use.
 
 ## Dependencies
 
-zsh: `sudo apt install zsh`
-
-fzf: `sudo apt install fzf`
+[Homebrew](https://docs.brew.sh/Homebrew-on-Linux#install)
 
 delta: `sudo apt install git-delta`
 
@@ -15,6 +13,14 @@ delta: `sudo apt install git-delta`
 [Go](https://dev.to/deadwin19/how-to-install-golang-on-wslwsl2-2880)
 
 [nvm](https://github.com/nvm-sh/nvm?tab=readme-ov-file#install--update-script)
+
+zsh: `brew install zsh`
+
+fzf: `brew install fzf`
+
+ripgrep: `brew install ripgrep`
+
+delta: `brew install git-delta`
 
 zsh-autocomplete:
 
@@ -28,4 +34,4 @@ zsh-syntax-highlighting:
 sudo git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 ```
 
-[Jetbrains Mono Nerd Font](https://github.com/ryanoasis/nerd-fonts)
+[JetBrains Mono Nerd Font](https://github.com/ryanoasis/nerd-fonts)

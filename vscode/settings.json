@@ -1,5 +1,4 @@
 {
-  // Misc
   "workbench.startupEditor": "newUntitledFile",
   "workbench.settings.editor": "json",
 
@@ -7,11 +6,9 @@
   "workbench.colorTheme": "Aura Dark",
   "workbench.iconTheme": "moxer-icons",
 
-  // Zoom
   "editor.fontSize": 12,
   "window.zoomLevel": 1,
 
-  // Font
   "editor.fontFamily": "JetbrainsMono NF",
   "terminal.integrated.fontFamily": "JetbrainsMono NF",
   "debug.console.fontFamily": "JetbrainsMono NF",
@@ -21,7 +18,6 @@
   "editor.inlineSuggest.fontFamily": "JetbrainsMono NF",
   "scm.inputFontFamily": "JetbrainsMono NF",
 
-  // UI
   "workbench.sideBar.location": "right",
   "editor.minimap.enabled": false,
   "breadcrumbs.enabled": false,
@@ -33,16 +29,13 @@
   "workbench.editor.editorActionsLocation": "hidden",
   "editor.cursorSmoothCaretAnimation": "on",
 
-  // Hide scrollbar
   "editor.scrollbar.horizontal": "hidden",
   "editor.scrollbar.vertical": "hidden",
   "editor.hideCursorInOverviewRuler": true,
 
-  // Editing
   "editor.linkedEditing": true,
   "editor.bracketPairColorization.enabled": true,
 
-  // Formatting
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
@@ -51,15 +44,13 @@
     "source.organizeImports": "explicit"
   },
 
-  // TypeScript
   "typescript.updateImportsOnFileMove.enabled": "always",
   "typescript.suggest.autoImports": true,
   "typescript.autoClosingTags": true,
   "typescript.preferences.importModuleSpecifier": "shortest",
 
-  // Go
   "go.lintTool": "golangci-lint",
-  "go.inlayHints.functionTypeParameters": true,
+  "go.lintFlags": ["--fast"],
   "go.inlayHints.parameterNames": true,
   "[go]": {
     "editor.defaultFormatter": "golang.go",
@@ -69,7 +60,6 @@
     }
   },
 
-  // Search exclude
   "search.exclude": {
     "**/node_modules": true,
     "**/bower_components": true,
@@ -79,6 +69,5 @@
     "**/pnpm-lock.yaml": true
   },
 
-  // Spell check
   "cSpell.userWords": ["esbenp"]
 }
