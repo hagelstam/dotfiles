@@ -2,7 +2,6 @@
   "workbench.startupEditor": "newUntitledFile",
   "workbench.settings.editor": "json",
 
-  // Theme
   "workbench.colorTheme": "Aura Dark",
   "workbench.iconTheme": "moxer-icons",
 
