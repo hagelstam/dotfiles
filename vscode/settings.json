@@ -51,6 +51,9 @@
   "go.lintTool": "golangci-lint",
   "go.lintFlags": ["--fast"],
   "go.inlayHints.parameterNames": true,
+  "go.formatTool": "goimports",
+  "go.toolsManagement.autoUpdate": true,
+  "go.vetOnSave": "package",
   "[go]": {
     "editor.defaultFormatter": "golang.go",
     "editor.formatOnSave": true,
