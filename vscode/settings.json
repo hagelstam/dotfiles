@@ -2,8 +2,8 @@
   "workbench.startupEditor": "newUntitledFile",
   "workbench.settings.editor": "json",
 
-  "workbench.colorTheme": "Aura Dark",
-  "workbench.iconTheme": "moxer-icons",
+  "workbench.colorTheme": "GitHub Dark Default",
+  "workbench.iconTheme": "material-icon-theme",
 
   "editor.fontSize": 12,
   "window.zoomLevel": 1,
@@ -49,16 +49,16 @@
   "typescript.preferences.importModuleSpecifier": "shortest",
 
   "go.lintTool": "golangci-lint",
-  "go.lintFlags": ["--fast"],
   "go.inlayHints.parameterNames": true,
+  "go.lintFlags": ["--fast"],
   "go.formatTool": "goimports",
   "go.toolsManagement.autoUpdate": true,
   "go.vetOnSave": "package",
   "[go]": {
-    "editor.defaultFormatter": "golang.go",
     "editor.formatOnSave": true,
+    "editor.defaultFormatter": "golang.go",
     "editor.codeActionsOnSave": {
-      "source.organizeImports": "explicit"
+      "source.organizeImports": "never"
     }
   },
 

@@ -1,12 +1,13 @@
-Aura Theme
 Error Lens
-Moxer Icons
 Code Spell Checker
 Docker
 ESLint
+GitHub Theme
 GitLens
 Go
 IntelliCode
+Kubernetes
+Material Icon Theme
 Prettier
 Tailwind CSS IntelliSense
 Template String Converter
