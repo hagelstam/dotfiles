@@ -27,6 +27,9 @@ autoload -Uz compinit
 compinit
 source <(kubectl completion zsh)
 
+# zoxide
+eval "$(zoxide init zsh --cmd cd)"
+
 source $ZSH/oh-my-zsh.sh
 
 # Go
@@ -48,7 +51,6 @@ alias ls="eza --icons --git --all"
 alias lt="eza --icons --long --git --all --tree --level=2"
 
 alias gc="git commit -m"
-alias glog="git log --graph --topo-order --pretty='%w(100,0,6)%C(yellow)%h%C(bold)%C(black)%d %C(cyan)%ar %C(green)%an%n%C(bold)%C(white)%s %N' --abbrev-commit"
 
 alias dco="docker compose"
 alias dps="docker ps"

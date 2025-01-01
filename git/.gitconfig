@@ -1,10 +1,14 @@
 [core]
 	pager = delta
+
 [delta]
 	line-numbers = true
 
 [push]
 	autoSetupRemove = true
 	default = current
+
 [alias]
 	undo = reset --soft HEAD^
+	ol = log --pretty=oneline
+	olg = log --graph --decorate --pretty=oneline --abbrev-commit --all
