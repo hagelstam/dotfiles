@@ -1,0 +1,18 @@
+{
+  "recommended": [
+    "streetsidesoftware.code-spell-checker",
+    "ms-azuretools.vscode-docker",
+    "usernamehw.errorlens",
+    "dbaeumer.vscode-eslint",
+    "GitHub.github-vscode-theme",
+    "eamodio.gitlens",
+    "golang.go",
+    "hashicorp.terraform",
+    "ms-kubernetes-tools.vscode-kubernetes-tools",
+    "PKief.material-icon-theme",
+    "esbenp.prettier-vscode",
+    "bradlc.vscode-tailwindcss",
+    "meganrogge.template-string-converter",
+    "redhat.vscode-yaml"
+  ]
+}

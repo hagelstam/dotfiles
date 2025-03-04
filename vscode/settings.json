@@ -27,6 +27,9 @@
   "workbench.layoutControl.enabled": false,
   "workbench.editor.editorActionsLocation": "hidden",
   "editor.cursorSmoothCaretAnimation": "on",
+  "explorer.confirmDelete": false,
+  "workbench.activityBar.location": "hidden",
+  // "editor.rulers": [80],
 
   "editor.scrollbar.horizontal": "hidden",
   "editor.scrollbar.vertical": "hidden",
@@ -55,11 +58,14 @@
   "go.toolsManagement.autoUpdate": true,
   "go.vetOnSave": "package",
   "[go]": {
-    "editor.formatOnSave": true,
     "editor.defaultFormatter": "golang.go",
     "editor.codeActionsOnSave": {
-      "source.organizeImports": "never"
+      "source.organizeImports": "always"
     }
+  },
+
+  "[terraform]": {
+    "editor.defaultFormatter": "hashicorp.terraform"
   },
 
   "search.exclude": {
@@ -69,7 +75,5 @@
     "**/package-lock.json": true,
     "**/yarn.lock": true,
     "**/pnpm-lock.yaml": true
-  },
-
-  "cSpell.userWords": ["esbenp"]
+  }
 }
