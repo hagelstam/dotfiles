@@ -9,7 +9,7 @@
     "golang.go",
     "hashicorp.terraform",
     "ms-kubernetes-tools.vscode-kubernetes-tools",
-    "PKief.material-icon-theme",
+    "miguelsolorio.symbols",
     "esbenp.prettier-vscode",
     "bradlc.vscode-tailwindcss",
     "meganrogge.template-string-converter",
