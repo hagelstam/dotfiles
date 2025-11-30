@@ -4,3 +4,4 @@ background-opacity = 0.7
 background-blur-radius = 20
 macos-titlebar-style = tabs
 window-padding-x = 8
+cursor-style = bar

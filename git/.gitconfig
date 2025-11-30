@@ -1,9 +1,5 @@
 [init]
 	defaultBranch = main
-[user]
-	name = Maximilian Hagelstam
-	email = maximilian.hagelstam@gmail.com
-	# signingkey = 
 [ui]
 	color = auto
 [alias]
@@ -45,7 +41,3 @@
 	pager = delta
 [delta]
 	line-numbers = true
-[commit]
-	gpgsign = true
-[tag]
-	gpgSign = true

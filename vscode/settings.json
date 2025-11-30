@@ -1,11 +1,8 @@
 {
   "workbench.startupEditor": "newUntitledFile",
   "workbench.settings.editor": "json",
-  "git.enableCommitSigning": true,
-
   "workbench.colorTheme": "GitHub Dark Default",
   "workbench.iconTheme": "symbols",
-
   "editor.fontSize": 12,
   "window.zoomLevel": 1,
 
@@ -35,39 +32,58 @@
   "editor.scrollbar.horizontal": "hidden",
   "editor.scrollbar.vertical": "hidden",
   "editor.hideCursorInOverviewRuler": true,
-
   "editor.linkedEditing": true,
   "editor.bracketPairColorization.enabled": true,
 
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
-    "source.fixAll": "explicit",
-    "source.addMissingImports": "explicit",
-    "source.organizeImports": "explicit"
+    "source.fixAll": "always",
+    "source.organizeImports": "never"
   },
 
+  // TypeScript
   "typescript.updateImportsOnFileMove.enabled": "always",
   "typescript.suggest.autoImports": true,
   "typescript.autoClosingTags": true,
   "typescript.preferences.importModuleSpecifier": "shortest",
 
+  // Python
+  "[python]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": "charliermarsh.ruff"
+  },
+
+  // Terraform
+  "[terraform]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": "hashicorp.terraform"
+  },
+
+  // GitHub Actions
+  "prettier.singleQuote": true,
+  "[github-actions-workflow]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  // Go
   "go.lintTool": "golangci-lint",
   "go.inlayHints.parameterNames": true,
   "go.lintFlags": ["--fast"],
-  "go.formatTool": "goimports",
+  "go.formatTool": "gofmt",
   "go.toolsManagement.autoUpdate": true,
   "go.vetOnSave": "package",
   "[go]": {
+    "editor.formatOnSave": true,
     "editor.defaultFormatter": "golang.go",
     "editor.codeActionsOnSave": {
       "source.organizeImports": "always"
     }
   },
 
-  "[terraform]": {
-    "editor.defaultFormatter": "hashicorp.terraform"
-  },
+  // Git
+  "git.confirmSync": false,
+  "git.openRepositoryInParentFolders": "always",
 
   "search.exclude": {
     "**/node_modules": true,
