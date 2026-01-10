@@ -50,19 +50,21 @@
 
   // Python
   "[python]": {
-    "editor.formatOnSave": false,
+    "editor.formatOnSave": true,
     "editor.defaultFormatter": "charliermarsh.ruff"
   },
 
   // Terraform
   "[terraform]": {
-    "editor.formatOnSave": false,
+    "editor.formatOnSave": true,
     "editor.defaultFormatter": "hashicorp.terraform"
   },
 
   // GitHub Actions
   "prettier.singleQuote": true,
+  "prettier.semi": false,
   "[github-actions-workflow]": {
+    "editor.formatOnSave": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
 
@@ -79,6 +81,20 @@
     "editor.codeActionsOnSave": {
       "source.organizeImports": "always"
     }
+  },
+
+  // Docker
+  "[dockercompose]": {
+    "editor.insertSpaces": true,
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2,
+    "editor.autoIndent": "advanced",
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": false,
+      "strings": true
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
 
   // Git

@@ -1,7 +1,7 @@
 export ZSH="$HOME/.oh-my-zsh"
 ZSH_THEME="robbyrussell" # https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 
-plugins=(git nvm sudo fzf aws zsh-syntax-highlighting zsh-autosuggestions)
+plugins=(git sudo fzf aws zsh-syntax-highlighting zsh-autosuggestions)
 
 # History
 HISTSIZE=5000
@@ -24,9 +24,10 @@ source $ZSH/oh-my-zsh.sh
 
 # Aliases
 alias c='clear'
-alias tf="terraform"
 alias cat=bat
+alias tf="terraform"
 alias cd=z
+alias aws_login='aws sso login --sso-session fs'
 
 alias l="eza --icons --git --all"
 alias ls="eza --icons --git --all"
@@ -41,19 +42,9 @@ alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
 
-# AWS
 export AWS_PROFILE="MaximAdmin"
 
-# nvm
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
-
-# Go
-export GOROOT=/usr/local/go
-export GOPATH=$HOME/Documents/go
-export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
-
-# Shell integrations
+# Integrations
 eval "$(zoxide init zsh)"
 eval "$(fzf --zsh)"
+eval "$(mise activate zsh)"

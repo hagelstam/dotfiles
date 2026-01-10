@@ -19,7 +19,6 @@
     "charliermarsh.ruff",
     "miguelsolorio.symbols",
     "bradlc.vscode-tailwindcss",
-    "meganrogge.template-string-converter",
     "redhat.vscode-yaml"
   ]
 }

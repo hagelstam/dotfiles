@@ -1,3 +1,6 @@
+[user]
+	name = Maximilian Hagelstam
+	# email = <your email>
 [init]
 	defaultBranch = main
 [ui]
@@ -41,3 +44,5 @@
 	pager = delta
 [delta]
 	line-numbers = true
+[includeIf "gitdir:~/code/personal/"]
+  path = .gitconfig-personal
