@@ -1,0 +1,23 @@
+[tools]
+python = "latest"
+uv = "latest"
+node = "24.0.0"
+bun = "latest"
+go = "latest"
+golangci-lint = "latest"
+terraform = "latest"
+tflint = "latest"
+
+claude = "latest"
+gh = "latest"
+xh = "latest"
+fzf = "latest"
+eza = "latest"
+zoxide = "latest"
+ripgrep = "latest"
+delta = "latest"
+bat = "latest"
+
+[env]
+FSAWS_PROFILE = "~/code/f-secure/developer-portal/aws-profiles/ci-sso.yaml"
+AWS_PROFILE = "MaximAdmin"
