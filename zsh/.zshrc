@@ -30,7 +30,6 @@ alias cat='bat'
 alias cd='z'
 alias http='xh'
 alias tf='terraform'
-alias aws_login='aws sso login --sso-session fs'
 
 # Eza
 alias l="eza --long --icons --git --all"
@@ -53,10 +52,26 @@ alias gco="git checkout"
 alias gb='git branch'
 alias gst="git status"
 
+# Other
+alias prlist="gh pr list --author \"@me\" --json=url --jq '.[].url'"
+alias nukemodules='find . -name "node_modules" -type d -prune | xargs rm -rf'
+alias killport='kill_port() { lsof -i tcp:$1 | awk "NR!=1 {print \$2}" | xargs kill -9; }; kill_port'
+alias aws_login='aws sso login --sso-session fs'
+
 # Dirs
 alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
+
+alias work="timer 60m && terminal-notifier -message 'Pomodoro'\
+        -title 'Work Timer is up! Take a Break 😊'\
+        -appIcon '~/Pictures/coffee.png'\
+        -sound Crystal"
+        
+alias rest="timer 10m && terminal-notifier -message 'Pomodoro'\
+        -title 'Break is over! Get back to work 😬'\
+        -appIcon '~/Pictures/coffee.png'\
+        -sound Crystal"
 
 eval "$(zoxide init zsh)"
 source <(fzf --zsh)

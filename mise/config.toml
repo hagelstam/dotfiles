@@ -19,5 +19,4 @@ delta = "latest"
 bat = "latest"
 
 [env]
-FSAWS_PROFILE = "~/code/f-secure/developer-portal/aws-profiles/ci-sso.yaml"
 AWS_PROFILE = "MaximAdmin"

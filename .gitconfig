@@ -44,5 +44,7 @@
 	pager = delta
 [delta]
 	line-numbers = true
+[merge]
+    conflictStyle = "diff3"
 [includeIf "gitdir:~/code/personal/"]
   path = .gitconfig-personal

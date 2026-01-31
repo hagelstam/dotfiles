@@ -1,5 +1,4 @@
 {
-  "workbench.startupEditor": "newUntitledFile",
   "workbench.settings.editor": "json",
   "workbench.colorTheme": "GitHub Dark Default",
   "workbench.iconTheme": "symbols",
@@ -15,6 +14,14 @@
   "editor.inlineSuggest.fontFamily": "JetbrainsMono NF",
   "scm.inputFontFamily": "JetbrainsMono NF",
 
+  "workbench.startupEditor": "none",
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "workbench.tips.enabled": false,
+  "symbols.hidesExplorerArrows": true,
+  "workbench.tree.renderIndentGuides": "none",
+  "window.customTitleBarVisibility": "never",
+  "window.titleBarStyle": "custom",
   "workbench.sideBar.location": "right",
   "editor.minimap.enabled": false,
   "breadcrumbs.enabled": false,
@@ -25,10 +32,7 @@
   "workbench.layoutControl.enabled": false,
   "workbench.editor.editorActionsLocation": "hidden",
   "editor.cursorSmoothCaretAnimation": "on",
-  "explorer.confirmDelete": false,
   "workbench.activityBar.location": "hidden",
-  // "editor.rulers": [80],
-
   "editor.scrollbar.horizontal": "hidden",
   "editor.scrollbar.vertical": "hidden",
   "editor.hideCursorInOverviewRuler": true,
