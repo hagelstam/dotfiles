@@ -8,7 +8,6 @@ golangci-lint = "latest"
 terraform = "latest"
 tflint = "latest"
 
-claude = "latest"
 gh = "latest"
 xh = "latest"
 fzf = "latest"
