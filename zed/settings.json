@@ -1,0 +1,70 @@
+{
+  "theme": "GitHub Dark",
+  "icon_theme": "Symbols Icon Theme",
+
+  "session": {
+    "trust_all_worktrees": true,
+  },
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false,
+  },
+
+  "ui_font_size": 16.0,
+  "buffer_font_size": 14.0,
+  "buffer_font_family": "JetBrainsMono Nerd Font",
+  "ui_font_family": ".SystemUIFont",
+  "terminal": {
+    "font_family": "JetBrainsMono Nerd Font",
+  },
+
+  "title_bar": {
+    "show_onboarding_banner": false,
+    "show_project_items": false,
+    "show_branch_name": false,
+    "show_user_menu": false,
+  },
+  "tab_bar": {
+    "show": false,
+  },
+  "toolbar": {
+    "selections_menu": true,
+    "breadcrumbs": false,
+    "quick_actions": false,
+  },
+  "status_bar": {
+    "experimental.show": false,
+  },
+  "scrollbar": {
+    "show": "never",
+  },
+  "minimap": {
+    "show": "never",
+  },
+  "project_panel": {
+    "auto_fold_dirs": false,
+    "dock": "right",
+    "hide_root": true,
+    "scrollbar": {
+      "show": "never",
+    },
+    "indent_guides": {
+      "show": "never",
+    },
+  },
+
+  "colorize_brackets": true,
+  "linked_edits": true,
+  "inlay_hints": {
+    "enabled": true,
+  },
+  "indent_guides": {
+    "enabled": true,
+  },
+  "cursor_shape": "bar",
+
+  "tab_size": 2,
+  "format_on_save": "on",
+  "restore_on_startup": "empty_tab",
+  "base_keymap": "VSCode",
+}

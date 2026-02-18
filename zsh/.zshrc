@@ -58,6 +58,8 @@ alias nukemodules='find . -name "node_modules" -type d -prune | xargs rm -rf'
 alias killport='kill_port() { lsof -i tcp:$1 | awk "NR!=1 {print \$2}" | xargs kill -9; }; kill_port'
 alias aws_login='aws sso login --sso-session fs'
 
+alias zed="open -a /Applications/Zed.app -n"
+
 # Dirs
 alias ..="cd .."
 alias ...="cd ../.."
