@@ -1,0 +1,29 @@
+[
+  {
+    "context": "Workspace",
+    "bindings": {
+      "cmd-shift-g": "git_panel::ToggleFocus"
+    }
+  },
+  {
+    "bindings": {
+      "alt-cmd-,": "zed::OpenSettings"
+    }
+  },
+  {
+    "bindings": {
+      "cmd-,": "zed::OpenSettingsFile"
+    }
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "cmd-'": [
+        "editor::ToggleComments",
+        {
+          "advance_downwards": false
+        }
+      ]
+    }
+  }
+]

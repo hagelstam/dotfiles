@@ -1,4 +1,5 @@
 {
+  "workbench.startupEditor": "newUntitledFile",
   "workbench.settings.editor": "json",
   "workbench.colorTheme": "GitHub Dark Default",
   "workbench.iconTheme": "symbols",
@@ -14,14 +15,6 @@
   "editor.inlineSuggest.fontFamily": "JetbrainsMono NF",
   "scm.inputFontFamily": "JetbrainsMono NF",
 
-  "workbench.startupEditor": "none",
-  "explorer.confirmDragAndDrop": false,
-  "explorer.confirmDelete": false,
-  "workbench.tips.enabled": false,
-  "symbols.hidesExplorerArrows": true,
-  "workbench.tree.renderIndentGuides": "none",
-  "window.customTitleBarVisibility": "never",
-  "window.titleBarStyle": "custom",
   "workbench.sideBar.location": "right",
   "editor.minimap.enabled": false,
   "breadcrumbs.enabled": false,
@@ -31,48 +24,33 @@
   "window.commandCenter": false,
   "workbench.layoutControl.enabled": false,
   "workbench.editor.editorActionsLocation": "hidden",
-  "editor.cursorSmoothCaretAnimation": "on",
+  "explorer.confirmDelete": false,
+  "workbench.tips.enabled": false,
+  "workbench.tree.renderIndentGuides": "none",
   "workbench.activityBar.location": "hidden",
   "editor.scrollbar.horizontal": "hidden",
   "editor.scrollbar.vertical": "hidden",
   "editor.hideCursorInOverviewRuler": true,
+  "editor.cursorStyle": "line",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorBlinking": "smooth",
   "editor.linkedEditing": true,
   "editor.bracketPairColorization.enabled": true,
+  // "editor.rulers": [80],
+
+  "js/ts.autoClosingTags.enabled": true,
+  "js/ts.suggest.autoImports": true,
+  "js/ts.updateImportsOnFileMove.enabled": "always",
+  "js/ts.preferences.importModuleSpecifier": "shortest",
 
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.formatOnSave": true,
+  "editor.formatOnSave": false,
   "editor.codeActionsOnSave": {
-    "source.fixAll": "always",
+    "source.fixAll": "explicit",
+    "source.addMissingImports": "explicit",
     "source.organizeImports": "never"
   },
 
-  // TypeScript
-  "typescript.updateImportsOnFileMove.enabled": "always",
-  "typescript.suggest.autoImports": true,
-  "typescript.autoClosingTags": true,
-  "typescript.preferences.importModuleSpecifier": "shortest",
-
-  // Python
-  "[python]": {
-    "editor.formatOnSave": true,
-    "editor.defaultFormatter": "charliermarsh.ruff"
-  },
-
-  // Terraform
-  "[terraform]": {
-    "editor.formatOnSave": true,
-    "editor.defaultFormatter": "hashicorp.terraform"
-  },
-
-  // GitHub Actions
-  "prettier.singleQuote": true,
-  "prettier.semi": false,
-  "[github-actions-workflow]": {
-    "editor.formatOnSave": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-
-  // Go
   "go.lintTool": "golangci-lint",
   "go.inlayHints.parameterNames": true,
   "go.lintFlags": ["--fast"],
@@ -86,18 +64,18 @@
       "source.organizeImports": "always"
     }
   },
-
-  // Docker
-  "[dockercompose]": {
-    "editor.insertSpaces": true,
+  "[python]": {
     "editor.formatOnSave": true,
-    "editor.tabSize": 2,
-    "editor.autoIndent": "advanced",
-    "editor.quickSuggestions": {
-      "other": true,
-      "comments": false,
-      "strings": true
-    },
+    "editor.defaultFormatter": "charliermarsh.ruff"
+  },
+  "[terraform]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "hashicorp.terraform"
+  },
+  "prettier.singleQuote": true,
+  "prettier.semi": false,
+  "[github-actions-workflow]": {
+    "editor.formatOnSave": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
 
