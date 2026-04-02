@@ -64,8 +64,12 @@
     "enabled": true
   },
   "cursor_shape": "bar",
+  "cursor_blink": false,
 
   "tab_size": 2,
   "format_on_save": "on",
+  "code_actions_on_format": {
+    "source.organizeImports": true
+  },
   "base_keymap": "VSCode"
 }
