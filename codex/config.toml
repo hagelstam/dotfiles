@@ -1,0 +1,16 @@
+approval_policy = "never"
+sandbox_mode = "danger-full-access"
+model = "gpt-5.6-terra"
+model_reasoning_effort = "medium"
+web_search = "live"
+suppress_unstable_features_warning = true
+personality = "pragmatic"
+
+[features]
+apply_patch_freeform = true
+default_mode_request_user_input = true
+steer = true
+unified_exec = true
+
+[tui]
+theme = "catppuccin-mocha"
