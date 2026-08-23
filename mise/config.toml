@@ -1,8 +1,7 @@
 [tools]
 python = "latest"
 uv = "latest"
-node = "24.0.0"
-bun = "latest"
+node = "24"
 go = "latest"
 golangci-lint = "latest"
 terraform = "latest"
@@ -16,6 +15,9 @@ zoxide = "latest"
 ripgrep = "latest"
 delta = "latest"
 bat = "latest"
+"aqua:go-task/task" = "latest"
+
+codex = "latest"
 
 [env]
 AWS_PROFILE = "MaximAdmin"
