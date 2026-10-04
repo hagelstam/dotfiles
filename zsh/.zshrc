@@ -1,10 +1,5 @@
 eval "$(mise activate zsh)"
 
-export ZSH="$HOME/.oh-my-zsh"
-ZSH_THEME="robbyrussell"
-
-plugins=(git sudo fzf aws zsh-syntax-highlighting zsh-autosuggestions)
-
 # History
 HISTSIZE=5000
 HISTFILE=~/.zsh_history
@@ -21,8 +16,6 @@ setopt hist_find_no_dups
 bindkey -e
 bindkey '^p' history-search-backward
 bindkey '^n' history-search-forward
-
-source $ZSH/oh-my-zsh.sh
 
 # Aliases
 alias c='clear'
@@ -64,4 +57,8 @@ alias ...="cd ../.."
 alias ....="cd ../../.."
 
 eval "$(zoxide init zsh)"
+eval "$(starship init zsh)"
 source <(fzf --zsh)
+
+source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
